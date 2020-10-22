@@ -1,0 +1,26 @@
+.navb{
+    font-size:100px;
+    color:blueviolet;
+    font-family: 'Commissioner', sans-serif;
+    display:inline-block;
+    margin:100px;
+}
+
+
+.navb:hover {
+    color: yellow;
+  }
+
+
+.navb:active{
+    color:blueviolet;
+}
+
+.image{
+    margin:100px;
+    border-radius:30px;
+    box-shadow: 5px 5px 5px thistle;
+    
+}
+
+

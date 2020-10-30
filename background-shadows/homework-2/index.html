@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      html,
+      body {
+        background-image: url("Image1.png");
+        background-position-y: -160px;
+        background-size: cover;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        
+      }
+      .color {
+        position: absolute;
+        background-color: rgba(76, 145, 223, 84);
+        opacity: 0.1;
+
+      }
+      .gr {
+        position: absolute;
+        
+        background-image: linear-gradient(
+          transparent,
+          rgba(0, 0, 0, 0.670) 60%,
+          rgba(0, 0, 0, 0.802) 62%,
+          black
+        );
+        width: 1920px;
+        height: 1050px;
+        opacity: 1;
+      }
+      .friends {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 200px;
+        color: #FFF;
+        letter-spacing: 0.2em;
+        font-family: "PT Sans";
+        font-weight: bold;
+       
+      }
+      .photo {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        opacity: 1;
+
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="color"></div>
+    <div class="gr"></div>
+    <img src="color.png" class="photo" />
+    <div class="friends">FRIENDS</div>
+  </body>
+</html>

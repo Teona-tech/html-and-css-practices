@@ -1,0 +1,239 @@
+$title:#2C3E50;
+$bg:#fff;
+
+$text:#A1B1BC;
+$border-color:none;
+$border:6px solid;
+$font:'Lato', sans-serif;
+
+
+
+$text-width:343px;
+$color:#2C3E50;
+$span-color:#E3E3E5;
+
+$orange-1:#FFC12D;
+$orange-2:#FAB917;
+$orange-3:#A37506;
+
+
+$red-1:#FD7761;
+$red-2:#E65E48;
+$red-3:#D52D13;
+
+
+
+$green-1: #97E411;
+$green-2: #7FC201;
+$green-3:#578602;
+
+
+$cyan-1: #6FD9FC;
+$cyan-2:#4AB7F2;
+$cyan-3:#0883C9;
+
+$purple-1:#A39CDC;
+$purple-2:#8883BD;
+$purple-3:#5E5993;
+
+
+@mixin box {
+    width:570px;
+    height:150px;
+    background-color:$bg;
+    border-radius:10px;
+    background-color:$bg;
+    border: 1px solid $border-color;
+    position: relative;
+    border-radius: 11px;
+    
+        div {
+            width:50px;
+            height:50px;
+            border-radius:50px;
+            position:absolute;
+            left: 52px;
+            top: 42px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border: $border;
+            padding:0px;
+            margin:0px;
+            i {
+                font-size:25px;
+    
+               
+    
+    
+            }
+           
+            
+
+            
+        }
+        h5{
+            color:$title;
+            position: absolute;
+            left:142px;
+            top:35px;
+            font-size:16px;
+            line-height:24px;
+            padding:0px;
+            margin:0px;
+            font-family: $font;
+
+
+        }
+        p {
+            color:$color;
+            position: absolute;
+            left:144px;
+            top:69px;
+            width:$text-width;
+            line-height:24px;
+            font-size:14px;
+            padding:0px;
+            margin:0px;
+            font-family:$font;
+
+        }
+       
+        
+        span{
+            color:$span-color;
+            position: absolute;
+            left: 540px;
+            top: 19px;
+        }
+        
+    
+    }
+
+.boxy {
+    @include box;
+    $bg:#FFC12D;
+    background-color:$bg;
+    $text:#2C3E50;
+    p {color:$text; 
+    }
+    div {
+        background-color: $orange-1;
+        border-color:$orange-2;
+        i {color:$orange-3;}
+
+    }
+    display: inline-block;
+    margin-bottom: 30px;
+    $span-color:$orange-3;
+    span {color: $span-color}
+
+
+}
+
+.boxy-1 {
+    @include box;
+    
+    $bg:#FEB1A4;
+    background-color:$bg;
+    div {
+        background-color: $red-1;
+        border-color:$red-2;
+        i {color:$red-3;}
+    }
+    display: inline-block;
+    $span-color:$red-3;
+    span {color: $span-color}
+    
+}
+
+.boxy-2 {
+    @include box;
+    $bg:#A7EC2F;
+    background-color:$bg;
+    div {
+        background-color:$green-1;
+        border-color:$green-2;
+        i {color:$green-3;}
+    }
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    $span-color:$green-3;
+    span {color: $span-color}
+    
+
+
+
+
+}
+
+.boxy-3 {
+    @include box;
+    $bg:#85EBFA;
+    background-color:$bg;
+    div {
+        background-color:$cyan-1;
+        border-color:$cyan-2;
+        i {color:$cyan-3;}
+    }
+    display: inline-block;
+    margin-left: 25px;
+    $span-color:$cyan-3;
+    span {color: $span-color}
+}
+
+.main-box{
+    width:1182px;
+    height:341px;
+
+        
+}
+
+
+.boxy-4 {
+    @include box;
+    $bg:#AACDF6;
+    background-color:$bg;
+
+    $width:1170px;
+    width: $width;
+
+    $text-width:969px;
+    
+    p {width: $text-width;}
+
+    div {
+        background-color:$purple-1;
+        border-color:$purple-2;
+        i {color:$purple-3;}
+        
+    }
+    
+    span {
+        left:1140px;
+        color:$purple-3;
+       
+
+    }
+    display: inline-block;
+    margin-top:23px;
+}
+
+.container{
+    width:1181px;
+    height:603px;
+    margin:auto;
+    
+}
+
+
+p{
+    
+    font-size:30px;
+    font-family:$font;
+    font-weight:lighter;
+    margin-bottom:4%;
+    color:$color;
+    margin-top: 1.9%;
+}

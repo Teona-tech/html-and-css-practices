@@ -1,0 +1,358 @@
+.boxy {
+  width: 570px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #E2E6E7;
+  position: relative;
+  border-radius: 11px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.boxy div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 52px;
+  top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid;
+  padding: 0px;
+  margin: 0px;
+}
+.boxy div i {
+  font-size: 25px;
+}
+.boxy h5 {
+  color: #2C3E50;
+  position: absolute;
+  left: 142px;
+  top: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy p {
+  color: #A1B1BC;
+  position: absolute;
+  left: 144px;
+  top: 69px;
+  width: 343px;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy span {
+  color: #E3E3E5;
+  position: absolute;
+  left: 540px;
+  top: 19px;
+}
+.boxy div {
+  background-color: #FFC12D;
+  border-color: #FAB917;
+}
+.boxy div i {
+  color: #A37506;
+}
+
+.boxy-1 {
+  width: 570px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #E2E6E7;
+  position: relative;
+  border-radius: 11px;
+  display: inline-block;
+}
+.boxy-1 div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 52px;
+  top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid;
+  padding: 0px;
+  margin: 0px;
+}
+.boxy-1 div i {
+  font-size: 25px;
+}
+.boxy-1 h5 {
+  color: #2C3E50;
+  position: absolute;
+  left: 142px;
+  top: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy-1 p {
+  color: #A1B1BC;
+  position: absolute;
+  left: 144px;
+  top: 69px;
+  width: 343px;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy-1 span {
+  color: #E3E3E5;
+  position: absolute;
+  left: 540px;
+  top: 19px;
+}
+.boxy-1 div {
+  background-color: #FD7761;
+  border-color: #E65E48;
+}
+.boxy-1 div i {
+  color: #D52D13;
+}
+
+.boxy-2 {
+  width: 570px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #E2E6E7;
+  position: relative;
+  border-radius: 11px;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+.boxy-2 div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 52px;
+  top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid;
+  padding: 0px;
+  margin: 0px;
+}
+.boxy-2 div i {
+  font-size: 25px;
+}
+.boxy-2 h5 {
+  color: #2C3E50;
+  position: absolute;
+  left: 142px;
+  top: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy-2 p {
+  color: #A1B1BC;
+  position: absolute;
+  left: 144px;
+  top: 69px;
+  width: 343px;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy-2 span {
+  color: #E3E3E5;
+  position: absolute;
+  left: 540px;
+  top: 19px;
+}
+.boxy-2 div {
+  background-color: #97E411;
+  border-color: #7FC201;
+}
+.boxy-2 div i {
+  color: #578602;
+}
+
+.boxy-3 {
+  width: 570px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #E2E6E7;
+  position: relative;
+  border-radius: 11px;
+  display: inline-block;
+  margin-left: 25px;
+}
+.boxy-3 div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 52px;
+  top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid;
+  padding: 0px;
+  margin: 0px;
+}
+.boxy-3 div i {
+  font-size: 25px;
+}
+.boxy-3 h5 {
+  color: #2C3E50;
+  position: absolute;
+  left: 142px;
+  top: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy-3 p {
+  color: #A1B1BC;
+  position: absolute;
+  left: 144px;
+  top: 69px;
+  width: 343px;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy-3 span {
+  color: #E3E3E5;
+  position: absolute;
+  left: 540px;
+  top: 19px;
+}
+.boxy-3 div {
+  background-color: #6FD9FC;
+  border-color: #4AB7F2;
+}
+.boxy-3 div i {
+  color: #0883C9;
+}
+
+.main-box {
+  width: 1182px;
+  height: 341px;
+}
+
+.boxy-4 {
+  width: 570px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #E2E6E7;
+  position: relative;
+  border-radius: 11px;
+  width: 1170px;
+  display: inline-block;
+  margin-top: 23px;
+}
+.boxy-4 div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 52px;
+  top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid;
+  padding: 0px;
+  margin: 0px;
+}
+.boxy-4 div i {
+  font-size: 25px;
+}
+.boxy-4 h5 {
+  color: #2C3E50;
+  position: absolute;
+  left: 142px;
+  top: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy-4 p {
+  color: #A1B1BC;
+  position: absolute;
+  left: 144px;
+  top: 69px;
+  width: 343px;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.boxy-4 span {
+  color: #E3E3E5;
+  position: absolute;
+  left: 540px;
+  top: 19px;
+}
+.boxy-4 p {
+  width: 969px;
+}
+.boxy-4 div {
+  background-color: #A39CDC;
+  border-color: #8883BD;
+}
+.boxy-4 div i {
+  color: #5E5993;
+}
+.boxy-4 span {
+  left: 1140px;
+}
+
+.container {
+  width: 1181px;
+  height: 603px;
+  margin: auto;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 4%;
+  color: #2C3E50;
+  margin-top: 1.9%;
+}
+
+/*# sourceMappingURL=main.css.map */
